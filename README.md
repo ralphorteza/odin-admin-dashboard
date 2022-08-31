@@ -5,3 +5,10 @@ A project to implement intermediate css and javascript skills.
  - sidebar
  - header
  - dashboard
+
+ completed
+
+### TODO: sidebar
+- logo
+- menu
+- misc
