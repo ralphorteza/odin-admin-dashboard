@@ -4,4 +4,4 @@ A project to implement intermediate css and javascript skills.
 ## TODO: build skeletion of webpage
  - sidebar
  - header
- - main
+ - dashboard
