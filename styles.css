@@ -50,6 +50,7 @@ table {
 /* ==================== framework ==================== */
 html, body {
   font-family: 'Arial', 'Helvetica', sans-serif;
+  font-size: 12px;
   height: 100%;
   margin: 0;
 }
@@ -65,19 +66,19 @@ html, body {
 }
 
 .sidebar {
-  background-color: aqua;
+  background-color: #16A34A;
   grid-column: 1 / 2;
   grid-row: 1 / -1;
 }
 
 .header {
-  background-color: gray;
+  background-color: #14532D;
   grid-column: 2 / -1;
   grid-row: 1 / 2;
 }
 
 .dashboard {
-  background-color: white;
+  background-color: #F0FDF4;
   grid-column: 2 / -1;
   grid-row: 2 / -1;
 }
@@ -97,12 +98,15 @@ html, body {
   color: antiquewhite;
 }
 
-.sidebar > * {
+.sidebar > :not(.logo) {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   row-gap: 10px;
+
+  font-size: 1.2rem;
 }
+
 /* ==================== header ==================== */
 
 /* =================== dashboard ================== */
