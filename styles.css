@@ -72,7 +72,7 @@ html, body {
 }
 
 .header {
-  background-color: #14532D;
+  background-color: #16A391;
   grid-column: 2 / -1;
   grid-row: 1 / 2;
 }
@@ -114,5 +114,55 @@ html, body {
 }
 
 /* ==================== header ==================== */
+.header {
+  display: grid;
+  grid-template-rows: 1fr 2fr;
+
+  padding: 5px 20px;
+  font-size: 1.4rem;
+  font-weight: bolder;
+  color: antiquewhite;
+}
+
+.nav {
+  grid-row: 1 / 2;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav > .left {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.nav > .right {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  column-gap: 40px;
+}
+
+.banner {
+  grid-row: 2 / 3;
+  display: flex;
+  
+  justify-content: space-between;
+}
+
+.banner > .left {
+  display: flex;
+/*   justify-content: center; */
+  align-items: center;
+}
+
+.banner > .right {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  column-gap: 20px;
+}
 
 /* =================== dashboard ================== */
