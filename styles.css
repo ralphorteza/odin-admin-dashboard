@@ -183,6 +183,49 @@ h2 {
 .dashboard {
   display: grid;
   grid-template-columns: 3fr 1fr;
+  min-width: 775px;
+}
+
+.dashboard > * > * {
+  margin: 12px 12px;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 12px 12px;
+}
+
+.grid-item {
+  padding: 12px;
+  background-color: #ffffff;
+  width: clamp(260px, 80%, 375px);
+  height: 200px;
+  padding: 5px;
+
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  border-radius: 12px;
+}
+
+.side-items {
+  display: flex;
+  flex-direction: column;
+  padding:  0 12px;
+  margin: 0%;
+}
+
+.side-items > * {
+  margin: 0%;
+}
+.side-items > * > h2 {
+  padding: 12px 0;
+}
+.side-items > * > div {
+  height: 300px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 /* =================== inputs ================== */
 input {
