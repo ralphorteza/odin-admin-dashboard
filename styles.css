@@ -72,10 +72,10 @@ html, body {
 }
 
 .header {
-  background-color: #16A391;
-/*   background-color: #F0FDF4; */
+  background-color: #ffffff;
   grid-column: 2 / -1;
   grid-row: 1 / 2;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
 .dashboard {
@@ -131,7 +131,10 @@ h2 {
   padding: 5px 20px;
   font-size: 1.4rem;
   font-weight: bolder;
-  color: antiquewhite;
+  color: black;
+
+
+
 }
 
 .nav {
@@ -141,6 +144,7 @@ h2 {
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
+
 }
 
 .nav > .left {
@@ -190,4 +194,21 @@ input[type="search"] {
   border-radius: 10px;
   width: clamp(100px, 300px, 500px);
   height: 2rem;
+
+  background-color: #e0e7ef
+}
+
+button {
+  display: block;
+  margin: 0;
+  padding: 5px 12px;
+  color: antiquewhite;
+  font-size: 1.2rem;
+  font-weight: bold;
+  box-sizing: border-box;
+  border-radius: 12px;
+
+  outline: none;
+  border: none;
+  background-color: #16A34A
 }
