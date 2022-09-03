@@ -186,6 +186,7 @@ p, h2, h3 {
   margin: 12px 12px;
 }
 
+/* project grid elements */
 .project-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -196,7 +197,7 @@ p, h2, h3 {
 .grid-item {
   display: grid;
   grid-template-rows: 1fr 3fr 1fr;
-  
+
   padding: 12px;
   background-color: #ffffff;
   width: clamp(260px, 80%, 375px);
@@ -218,8 +219,7 @@ p, h2, h3 {
   justify-self: end;
 }
 
-
-
+/* side items */
 .side-items {
   display: flex;
   flex-direction: column;
@@ -239,6 +239,9 @@ p, h2, h3 {
   border-radius: 12px;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
+
+
+
 /* =================== inputs ================== */
 input {
   appearance: none;
