@@ -84,11 +84,7 @@ html, body {
   grid-row: 2 / -1;
 }
 
-p {
-  padding: 0%;
-  margin: 0%;
-}
-h2 {
+p, h2, h3 {
   padding: 0%;
   margin: 0%;
 }
@@ -198,15 +194,31 @@ h2 {
 }
 
 .grid-item {
+  display: grid;
+  grid-template-rows: 1fr 3fr 1fr;
+  
   padding: 12px;
   background-color: #ffffff;
   width: clamp(260px, 80%, 375px);
   height: 200px;
   padding: 5px;
 
-  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
   border-radius: 12px;
+  border-left-style: solid;
+  border-left-width: 12px;
+  border-color: aqua;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
+
+.grid-item > * {
+  padding: 12px 5px;
+}
+
+.grid-item .buttons {
+  justify-self: end;
+}
+
+
 
 .side-items {
   display: flex;
