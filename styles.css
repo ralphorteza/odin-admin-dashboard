@@ -57,7 +57,7 @@ html, body {
 
 .wrapper {
   display: grid;
-  grid-template-columns:  clamp(172px, 20%, 220px) 1fr;
+  grid-template-columns:  clamp(167px, 12%, 220px) 1fr;
   /* grid-template-rows: clamp(100px, 15%, 130px) 1fr; */
   grid-template-rows: 120px 1fr;
   /* text-align: center; */
@@ -200,7 +200,7 @@ p, h2, h3, h4 {
 
   padding: 12px;
   background-color: #ffffff;
-  width: clamp(260px, 80%, 375px);
+  width: clamp(250px, 80%, 375px);
   height: 200px;
   padding: 5px;
 
