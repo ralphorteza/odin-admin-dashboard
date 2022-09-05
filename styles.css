@@ -84,7 +84,7 @@ html, body {
   grid-row: 2 / -1;
 }
 
-p, h2, h3 {
+p, h2, h3, h4 {
   padding: 0%;
   margin: 0%;
 }
@@ -234,12 +234,24 @@ p, h2, h3 {
   padding: 12px 0;
 }
 .side-items > * > div {
-  height: 300px;
+  height: auto;
   background-color: #ffffff;
   border-radius: 12px;
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
+
+/* trending */
+.trending-block {
+  padding: 5px;
+
+}
+.user {
+  display: flex;
+  width: 180px;
+  margin: 5px 0%;
+  padding-left: 4px;
+}
 
 
 /* =================== inputs ================== */
