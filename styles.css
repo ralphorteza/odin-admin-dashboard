@@ -178,7 +178,7 @@ p, h2, h3, h4 {
 /* =================== dashboard ================== */
 .dashboard {
   display: grid;
-  grid-template-columns: 3fr 1fr;
+  grid-template-columns: 1fr clamp(218px, 25%, 300px);
   min-width: 775px;
 }
 
@@ -192,6 +192,9 @@ p, h2, h3, h4 {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(3, 1fr);
   gap: 12px 12px;
+
+  justify-items: center;
+  align-items: center;
 }
 
 .grid-item {
