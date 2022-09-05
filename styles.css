@@ -240,12 +240,30 @@ p, h2, h3, h4 {
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
+/* annoucements */
+.announcement-block {
+  padding: 7px;
+}
+
+.announce {
+  margin: 15px 0%;
+  padding-bottom: 12px;
+  border-bottom: 2px solid gray;
+}
+.announce > * {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  word-break: 'none';
+  overflow: hidden;
+  text-align: left;
+}
 
 /* trending */
 .trending-block {
   padding: 5px;
-
 }
+
 .user {
   display: flex;
   width: 180px;
